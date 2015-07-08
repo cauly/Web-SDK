@@ -1,3 +1,3 @@
 # Web-SDK
 
-[Banner](../master/banner)
+[Banner](banner.md)
