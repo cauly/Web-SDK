@@ -14,7 +14,7 @@
 * Cauly 광고 형태 중 NativeAd 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
 
 #### 절차
-* http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다.
+* <a href="http://cauly.net" target="_blank">Cauly</a> 에서 앱을 등록하고 app code를 발급받습니다.
 
 
 #### SDK Javascript link
@@ -43,7 +43,7 @@
 
 	인자명|설명|필수
 	--- | --- | ---
-	appcode|www.cauly.net 에서 발급 받은 app code|O
+	appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
 	setTitleId |광고영역 중, 제목에 해당하는 ID 설정|
 	setSubTitleId |광고영역 중, 부제목에 해당하는 ID|
 	setDescriptionId|광고영역 중, 상세설명에 해당하는 ID 설정 |
