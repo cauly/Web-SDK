@@ -31,7 +31,7 @@ http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다.
 - 아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
 
 - 예제
-```javascript
+```html
 <!-- 원하시는 대로 디자인 가능  ,  5개의 콘텐츠 중, 원하는 디자인에 따라 골라 사용 가능 -->
 <div id="caulyNativeAd1" style="display:none;position:relative; width:300px; height:300px;">
 <img id="image" style="position:absolute; width:300px; height:150px;"></img>
