@@ -125,6 +125,6 @@ document.getElementById("caulyNativeAd1").style.display = "none";
 [sample](http://image.cauly.co.kr:15151/richad/test/native_web/sample/joins.html)
  
 ####  주의 사항
-HybridApp에서 web-sdk를 사용하는 경우,WebView의 setWebviewClient 의 shouldOverrideUrlLoading function에서
++ HybridApp에서 web-sdk를 사용하는 경우,WebView의 setWebviewClient 의 shouldOverrideUrlLoading function에서
 redirection을 처리하지 않아야 합니다.  
 
