@@ -15,7 +15,7 @@
 * Cauly 광고 형태 중 Floating Popup 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
 
 #### 절차
-* http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다.
+* <a href="http://cauly.net" target="_blank">Cauly</a> 에서 앱을 등록하고 app code를 발급받습니다.
 
 #### SDK Javascript link
 + web sdk는 다음 주소를 사용 합니다.
@@ -30,7 +30,7 @@
 
 			인자명|설명|필수
 			---|---|---
-			appcode|www.cauly.net 에서 발급 받은 app code|O
+			appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
 			options|추가적인 option (object 사용)<br/>charset : 사용하는 charater set (default : “UTF-8”)|
 		- 변수명은 caulyPopupAd로 설정
 			- 변수의 이름이 caulyPopupAd가 아닐 경우 정상 동작하지 않을 수 있습니다.
