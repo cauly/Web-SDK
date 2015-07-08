@@ -1,13 +1,4 @@
-    id  │    name     │          desciption          │ price  
-──────┼─────────────┼──────────────────────────────┼────────
-    1 │ gizmo       │ Takes care of the doohickies │   1.99
-    2 │ doodad      │ Collects *gizmos*            │  23.80
-   10 │ dojigger    │ Handles:                    ↵│ 102.98
-      │             │ * gizmos                    ↵│ 
-      │             │ * doodads                   ↵│ 
-      │             │ * thingamobobs               │ 
- 1024 │ thingamabob │ Self-explanatory, no?        │   0.99
- 
+
 ## Cauly Integration Guide For Banner
 
 * Cauly Banner 광고 사용자 가이드
