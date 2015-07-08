@@ -9,7 +9,6 @@ version 1.0.0
 
 문서의 목적 및 범위
 본 문서는 Cauly Floating Popup 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다.
- Native SDK 관련 정보는 다른 문서를 참조하시기 바랍니다. (http://doc.futurestream.co.kr)
 
 
 개요
@@ -146,5 +145,5 @@ caulyPopupAd.showPopupAd({top : 90, success : onSuccess, fail : onFail});
 	caulyPopupAd.showPopupAd({success : onSuccess, fail : onFail});
 </script>
 ```
-sample
-http://showcase.cauly.net/floating/index.html 
+
+[sample](http://showcase.cauly.net/floating/index.html )
