@@ -1,33 +1,36 @@
-Cauly Integration Guide For NativeAd
+## Cauly Integration Guide For NativeAd
 
 Cauly NativeAd 광고 사용자 가이드
 version 4.0.2
 
 
-문서 이력
+#### 문서 이력
 4.0.2 2015.01.29 초안 작성
 
-문서의 목적 및 범위
+#### 문서의 목적 및 범위
 본 문서는 Cauly NativeAd 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
-
-개요
+
+#### 개요
 Cauly 광고 형태 중 NativeAd 광고를 위한 SDK 입니다.
 모바일 웹을 대상으로 합니다.
-절차
+
+#### 절차
 http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다.
 
-
-SDK Javascript link
-web sdk는 다음 주소를 사용 합니다.
+
+#### SDK Javascript link
+-- web sdk는 다음 주소를 사용 합니다.
 http://image.cauly.co.kr:15151/websdk/caulyad.native.js
-사용 방법
+-- 사용 방법
 ```
 <script src="http://image.cauly.co.kr:15151/websdk/caulyad.native.js"></script>
 ```
 
 네이티브 디자인 DIV 삽입
 아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
-예제
+
+##### 예제
+
 ```
 <!-- 원하시는 대로 디자인 가능  ,  5개의 콘텐츠 중, 원하는 디자인에 따라 골라 사용 가능 -->
 <div id="caulyNativeAd1" style="display:none;position:relative; width:300px; height:300px;">
@@ -159,9 +162,9 @@ document.getElementById("caulyNativeAd1").style.display = "none";
 </div>
 ```
 
-sample
- http://image.cauly.co.kr:15151/richad/test/native_web/sample/joins.html 
-주의 사항
-HybridApp에서 web-sdk를 사용하는 경우,
-         WebView의 setWebviewClient 의 shouldOverrideUrlLoading function에서     redirection을 처리하지 않아야 합니다.  
+[sample](http://image.cauly.co.kr:15151/richad/test/native_web/sample/joins.html)
+ 
+####  주의 사항
+HybridApp에서 web-sdk를 사용하는 경우,WebView의 setWebviewClient 의 shouldOverrideUrlLoading function에서
+redirection을 처리하지 않아야 합니다.  
 
