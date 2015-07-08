@@ -1,11 +1,11 @@
 ## Cauly Integration Guide For NativeAd
 
-Cauly NativeAd 광고 사용자 가이드
-version 4.0.2
+* Cauly NativeAd 광고 사용자 가이드
+* version 4.0.2
 
 
 #### 문서 이력
-4.0.2 2015.01.29 초안 작성
+* 4.0.2 2015.01.29 초안 작성
 
 #### 문서의 목적 및 범위
 본 문서는 Cauly NativeAd 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
