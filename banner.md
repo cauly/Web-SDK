@@ -1,3 +1,13 @@
+    id  │    name     │          desciption          │ price  
+──────┼─────────────┼──────────────────────────────┼────────
+    1 │ gizmo       │ Takes care of the doohickies │   1.99
+    2 │ doodad      │ Collects *gizmos*            │  23.80
+   10 │ dojigger    │ Handles:                    ↵│ 102.98
+      │             │ * gizmos                    ↵│ 
+      │             │ * doodads                   ↵│ 
+      │             │ * thingamobobs               │ 
+ 1024 │ thingamabob │ Self-explanatory, no?        │   0.99
+ 
 ## Cauly Integration Guide For Banner
 
 * Cauly Banner 광고 사용자 가이드
@@ -13,7 +23,7 @@
 #### 개요
 * Cauly 광고 형태 중 Banner 광고를 위한 SDK 입니다<br/>모바일 웹을 대상으로 합니다.
 #### 절차
-* http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다
+* <a href="http://www.cauly.net" target="_blank">Cauly</a>에서 앱을 등록하고 app code를 발급받습니다
 
 
 #### SDK Javascript link
@@ -29,7 +39,7 @@
 
 	인자명|설명|필수
 	---|---|---
-	appcode|www.cauly.net 에서 발급 받은 app code|O
+	appcode|<a href="http://www.cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
 	options|추가적인 option (object 사용)<br/> 랜딩 시 새창 띄우는 방법<br/> open_new_window : true
 
 
@@ -52,10 +62,11 @@
 	```
 
 
-		인자명|설명|필수
-		---|---|---
-		success|광고 노출 성공시 호출될 callback|function success_callback() 형식|
-		fail|광고 노출 실패시 호출될 callback<br/>function nofill_callback(code)형식<br/>인자값으로 결과code 전달<br/>0 : 정상처리<br/>100 : 광고 출력 시간이나 회수 등으로 노출 제한<br/>200 : 출력할 광고 없음<br/>400 : app code 오류. app이 등록되지 않았거나 사용이 불가능<br/>500 : server에서 오류 발생
+		|인자명|설명|필수|
+		|---|---|---|
+		|success|광고 노출 성공시 호출될 callback|function success_callback() 형식|c|
+		|fail
+		|광고 노출 실패시 호출될 callback<br/>function nofill_callback(code)형식<br/>인자값으로 결과code 전달<br/>0 : 정상처리<br/>100 : 광고 출력 시간이나 회수 등으로 노출 제한<br/>200 : 출력할 광고 없음<br/>400 : app code 오류. app이 등록되지 않았거나 사용이 불가능<br/>500 : server에서 오류 발생|c|
 
 
 
