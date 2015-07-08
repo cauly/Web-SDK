@@ -1,3 +1,3 @@
 # Web-SDK
 
-[Banner](../blob/master/banner)
+[Banner](../master/banner)
