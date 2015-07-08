@@ -74,7 +74,7 @@ function success_callback( info ) {
 	}
 ```
 
-*작성 예제 1 (기본 사용 방법)
+* 작성 예제 1 (기본 사용 방법)
 ```javascript
 <script src='http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js' type='text/javascript'></script>
 <script type='text/javascript'>
