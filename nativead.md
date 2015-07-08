@@ -19,19 +19,19 @@ http://www.cauly.net 에서 앱을 등록하고 app code를 발급받습니다.
 
 
 #### SDK Javascript link
--- web sdk는 다음 주소를 사용 합니다.
-http://image.cauly.co.kr:15151/websdk/caulyad.native.js
--- 사용 방법
-```
-<script src="http://image.cauly.co.kr:15151/websdk/caulyad.native.js"></script>
-```
+- web sdk는 다음 주소를 사용 합니다.
+	- http://image.cauly.co.kr:15151/websdk/caulyad.native.js
+- 사용 방법
+	-
+	```
+		<script src="http://image.cauly.co.kr:15151/websdk/caulyad.native.js"></script>
+	```
 
-네이티브 디자인 DIV 삽입
-아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
+#### 네이티브 디자인 DIV 삽입
+- 아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
 
-##### 예제
-
-```
+- 예제
+```javascript
 <!-- 원하시는 대로 디자인 가능  ,  5개의 콘텐츠 중, 원하는 디자인에 따라 골라 사용 가능 -->
 <div id="caulyNativeAd1" style="display:none;position:relative; width:300px; height:300px;">
 <img id="image" style="position:absolute; width:300px; height:150px;"></img>
@@ -41,49 +41,27 @@ http://image.cauly.co.kr:15151/websdk/caulyad.native.js
 <font color="white"  size="2"  id="description" style="position:absolute; top:80px; left:100px;width:200px;"></font>
 </div>
 ```
-NativeAd 변수 생성
-Cauly 광고를 사용하기 위해서 NativeAd 객체를 생성합니다.
-Paramter
+#### NativeAd 변수 생성
+* Cauly 광고를 사용하기 위해서 NativeAd 객체를 생성합니다.
+* Paramter
 
-인자명
-설명
-필수
-appcode
-www.cauly.net 에서 발급 받은 app code
-O
-setTitleId 
-광고영역 중, 제목에 해당하는 ID 설정
-
-
-setSubTitleId 
- 광고영역 중, 부제목에 해당하는 ID
-
-
-setDescriptionId
-광고영역 중, 상세설명에 해당하는 ID 설정 
-
-
-setImageId
-광고영역 중, 메인이미지에 해당하는 ID 설정 
-
-
-setIsImageLandscape
-메인이미지가 가로인지, 세로인지 (true or false)
-
-
-setIconId
- 광고영역 중, 아이콘에 해당하는 ID 설정
-
-
-showNativeAd(appcode, fuction success, fuction fail)
-광고영역 Div ID 설정, 광고 수신 성공 callback,
-광고 수신 실패 callback
+인자명|설명|필수
+--- | --- | ---
+appcode|www.cauly.net 에서 발급 받은 app code|O
+setTitleId |광고영역 중, 제목에 해당하는 ID 설정|
+setSubTitleId |광고영역 중, 부제목에 해당하는 ID|
+setDescriptionId|광고영역 중, 상세설명에 해당하는 ID 설정 |
+setImageId|광고영역 중, 메인이미지에 해당하는 ID 설정 |
+setIsImageLandscape|메인이미지가 가로인지, 세로인지 (true or false)|
+setIconId|광고영역 중, 아이콘에 해당하는 ID 설정|
+showNativeAd(appcode, fuction success, fuction fail)|광고영역 Div ID 설정, 광고 수신 성공 callback,광고 수신 실패 callback|
 
 
 
 
-사용 예제
-```
+
+* 사용 예제
+```javascript
 var caulyNativeAd = new CaulyNativeAd("발급AppCode");
 	caulyNativeAd.setTitleId("title"); 
 	caulyNativeAd.setSubTitleId("subtitle"); 
@@ -103,24 +81,10 @@ var caulyNativeAd = new CaulyNativeAd("발급AppCode");
 
 
 
-인자명
-설명
-필수
-success
-광고 노출 성공시 호출될 callback
-
-
-
-
-
-fail
-광고 노출 실패시 호출될 callback
-인자값으로 결과code 전달
-0 : 정상처리
-100 : 광고 출력 시간이나 회수 등으로 노출 제한
-200 : 출력할 광고 없음
-400 : app code 오류. app이 등록되지 않았거나 사용이 불가능
-500 : server에서 오류 발생
+인자명|설명|필수
+--- | --- | ---
+success|광고 노출 성공시 호출될 callback|
+fail| 광고 노출 실패시 호출될 <br/>callback 인자값으로 결과code 전달 <br/>0 : 정상처리 <br/>100 : 광고 출력 시간이나 회수등으로 노출제한 <br/>200 : 출력할 광고 없음 <br/>400 : app code 오류. app이 등록되지 않았거나 사용이 불가능 <br/>500 : server에서 오류 발생<br/>|
 
 
 
@@ -131,8 +95,8 @@ fail
 
 
 
-작성 예제 1 (기본 사용 방법)
-```
+* 작성 예제 1 (기본 사용 방법)
+```javascript
 <script src="http://image.cauly.co.kr:15151/websdk/caulyad.native.js"></script>
 
 <script type="text/javascript">
