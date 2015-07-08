@@ -1,4 +1,4 @@
-Cauly Integration Guide For Floating popup
+## Cauly Integration Guide For Floating popup
 
 Cauly Floating Popup 광고 사용자 가이드
 version 1.0.0
