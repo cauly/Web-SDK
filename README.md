@@ -4,6 +4,6 @@
 
 Home Page : [Cauly Site](http://cauly.net)
 
-#### [Banner](banner.md)
-#### [NativeAD](nativead.md)
-#### [Floating](floating.md)
+#### [Banner광고 사용자 안내](banner.md)
+#### [NativeAD광고 사용자 안내](nativead.md)
+#### [Floating광고 사용자 안내](floating.md)
