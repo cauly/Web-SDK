@@ -1,4 +1,5 @@
-## Cauly Integration Guide For NativeAd
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Integration Guide For NativeAd
+----
 
 * Cauly NativeAd 광고 사용자 가이드
 * version 4.0.2
