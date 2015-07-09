@@ -1,4 +1,5 @@
-## Cauly Integration Guide For Floating popup
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Android SDK 설치가이드
+----
 
 * Cauly Floating Popup 광고 사용자 가이드
 * version 1.0.0
