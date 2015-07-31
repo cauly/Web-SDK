@@ -1,7 +1,7 @@
-![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Video Mobile Web SDK 연동 가이드  
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) CAULY Video Mobile Web SDK 연동 가이드  
 ----
 
-* CaulyVideo 광고 사용자 가이드
+* CAULY Video 광고 사용자 가이드
 * version 4.0.2
 
 
@@ -9,10 +9,10 @@
 * 4.0.2 2015.07.31 초안 작성
 
 #### 문서의 목적 및 범위
-* 본 문서는 CaulyVideo 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
+* 본 문서는  CAULY Video 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
 
 #### 개요
-* Cauly 광고 형태 중 CaulyVideo 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
+* Cauly 광고 형태 중  CAULY Video 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
 
 #### 절차
 * <a href="http://cauly.net" target="_blank">Cauly</a> 에서 앱을 등록하고 app code를 발급받습니다.
@@ -29,7 +29,7 @@
 
 - 예제
 	```html
-	<!-- 카울리비디오애드가 노출 될 컨테이너 설정 -->
+	<!--  CAULY Video가 노출 될 컨테이너 설정 -->
 	<div class="ad-Cauly" id="caulyVideoAd" >   </div>
 	```
 #### CaulyVideoAd 변수 생성
@@ -49,7 +49,7 @@
   onReceiveVideoAd()	|광고 요청 성공 시 호출됨. 유,무료 광고 여부가 isChargeableAd 변수에 설정됨
   onFailToReceiveVideoAd( code, msg)	|광고 노출 실패 시 호출됨. 오류 코드와 내용이 errorCode, errorMsg 변수에 설정됨
   onStartVideoAd()	|광고의 재생시작을 알려준다.
-  onFinishVideoAd()	|카울리비디오 재생 중, 재생완료, 광고클릭, 스킵버튼클릭, 플레이에러 등으로 광고영상이 끝났을 때 호출
+  onFinishVideoAd()	| CAULY Video 재생 중, 재생완료, 광고클릭, 스킵버튼클릭, 플레이에러 등으로 광고영상이 끝났을 때 호출
 
 * 사용 예제
 	```javascript
@@ -61,7 +61,7 @@
 		onStartVideoAd   		: onStartVideoAd,
 		onFinishVideoAd   		: onFinishVideoAd,
 	}
-	//카울리비디오를 없애고,   본 영상을 재생한다
+	// CAULY Video를 없애고,   본 영상을 재생한다
 	function loadVideo()
 	{
 		document.getElementById('caulyVideoAd').innerHTML="";
@@ -81,7 +81,7 @@
 	function onStartVideoAd()
 	{
 	}
-  //카울리비디오 재생 중, 재생완료, 광고클릭, 스킵버튼클릭, 플레이에러 등으로 광고영상이 끝났을 때 호출
+  // CAULY Video 재생 중, 재생완료, 광고클릭, 스킵버튼클릭, 플레이에러 등으로 광고영상이 끝났을 때 호출
 	function onFinishVideoAd(code, msg)
 	{
 		loadVideo();
