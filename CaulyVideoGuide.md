@@ -9,10 +9,10 @@
 * 4.0.2 2015.07.31 초안 작성
 
 #### 문서의 목적 및 범위
-* 본 문서는  CAULY Video 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
+* 본 문서는  CAULY Video 를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
 
 #### 개요
-* Cauly 광고 형태 중  CAULY Video 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
+* CAULY 광고 형태 중  CAULY Video를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
 
 #### 절차
 * <a href="http://cauly.net" target="_blank">Cauly</a> 에서 앱을 등록하고 app code를 발급받습니다.
@@ -33,7 +33,7 @@
 	<div class="ad-Cauly" id="caulyVideoAd" >   </div>
 	```
 #### CaulyVideoAd 변수 생성
-* Cauly 광고를 사용하기 위해서 CaulyVideoAd 객체를 생성합니다.
+*  CAULY Video를 사용하기 위해서 CaulyVideoAd 객체를 생성합니다.
 * Paramter
 
 	인자명|설명|필수
