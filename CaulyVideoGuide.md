@@ -1,4 +1,4 @@
-![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Integration Guide For NativeAd
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Video Mobile Web SDK 연동 가이드  
 ----
 
 * CaulyVideo 광고 사용자 가이드
