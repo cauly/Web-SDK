@@ -94,8 +94,8 @@
 	//CaulyVideoAd를 호출한다. 
 	function loadVideoAd()
 	{
-		videoAd = new CaulyVideoAd("yMfwnte7");
-		videoAd.setKeywords("신민아");
+		videoAd = new CaulyVideoAd("APPCODE");
+		videoAd.setKeywords("category");
 		videoAd.requestVideoAd("caulyVideoAd", caulyVideoAdCallback);
 	}
 	loadVideoAd();
@@ -107,7 +107,7 @@ Code|Message|설명
 ---|---|---
 0|OK|유료 광고
 100|	Non-chargeable ad is supplied|무료 광고(속성 : 공익 광고, Cauly 기본 광고)
-200|	No filled AD	|전면CPM 광고 없음
+200|	No filled AD	|광고 없음
 400|	The app code is invalid. Please check your app code!	|App code 불일치 또는default app code
 500|	Server error	|cauly서버 에러
 -100|	SDK error	|SDK 에러
