@@ -44,7 +44,7 @@
 	requestVideoAd(appcode, caulyVideoAdCallback)|광고영역 Div ID 설정, 광고 callback|
   showVideoAd()|수신된 광고를 재생시작 |
 
-  광고Callback 설명
+  광고Callback| 설명
   ---|---
   onReceiveVideoAd()	|광고 요청 성공 시 호출됨. 유,무료 광고 여부가 isChargeableAd 변수에 설정됨
   onFailToReceiveVideoAd( code, msg)	|광고 노출 실패 시 호출됨. 오류 코드와 내용이 errorCode, errorMsg 변수에 설정됨
