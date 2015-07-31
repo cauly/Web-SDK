@@ -19,10 +19,10 @@
 
 
 #### SDK Javascript link
-+  web sdk는 다음 주소를 사용 합니다.
-	-   http://image.cauly.co.kr:15151/websdk/caulyad.native.js
++  web sdk는 다음 주소를 사용 합니다. (not yet uploaded)
+	-   http://image.cauly.co.kr:15151/websdk/.js
 +  사용 방법
-	- ```<script src="http://image.cauly.co.kr:15151/websdk/caulyad.native.js"></script>```
+	- ```<script src="http://image.cauly.co.kr:15151/websdk/"></script>```
 
 #### 네이티브 디자인 DIV 삽입
 - 아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
