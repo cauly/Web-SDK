@@ -39,7 +39,7 @@
 	인자명|설명|필수
 	--- | --- | ---
 	appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
-  setKeywords	|광고 타켓팅에 활용되는 키워드 설정|
+  setKeywords	|광고 타켓팅에 활용되는 키워드 설정( 최대 3개까지 설정가능)|
   setSkipCount	|광고의 건너띄우기 버튼의 노출시간설정|
 	requestVideoAd(appcode, caulyVideoAdCallback)|광고영역 Div ID 설정, 광고 callback|
   showVideoAd()|수신된 광고를 재생시작 |
@@ -95,7 +95,7 @@
 	function loadVideoAd()
 	{
 		videoAd = new CaulyVideoAd("APPCODE");
-		videoAd.setKeywords("category");
+		videoAd.setKeywords("category1,category2,category3"); //카테고리 설정 최대 3개까지 설정가능 
 		videoAd.requestVideoAd("caulyVideoAd", caulyVideoAdCallback);
 	}
 	loadVideoAd();
