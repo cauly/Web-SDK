@@ -2,11 +2,11 @@
 ----
 
 * CAULY Video 사용자 가이드
-* version 4.0.2
+* version 4.2.0
 
 
 #### 문서 이력
-* 4.0.2 2015.07.31 초안 작성
+* 4.2.0 2015.07.31 초안 작성
 
 #### 문서의 목적 및 범위
 * 본 문서는  CAULY Video 를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
@@ -39,7 +39,7 @@
 	인자명|설명|필수
 	--- | --- | ---
 	appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
-  setKeywords	|광고 타켓팅에 활용되는 키워드 설정( 최대 3개까지 설정가능)|
+  setKeywords	|광고 타켓팅에 활용되는 키워드 설정( 카테고리, 태그 등을 ','(컴마)로 구분하여 최대 3개까지 설정가능)|
   setSkipCount	|광고의 건너띄우기 버튼의 노출시간설정|
 	requestVideoAd(appcode, caulyVideoAdCallback)|광고영역 Div ID 설정, 광고 callback|
   showVideoAd()|수신된 광고를 재생시작 |
