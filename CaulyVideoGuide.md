@@ -93,7 +93,7 @@
 		caulyVideoAdReceived = false;
 		loadVideo();
 	}
-	광고수신에 실패되었을 때 호출된다.
+//	광고수신에 실패되었을 때 호출된다.
 	function onFailToReceiveVideoAd(code,msg)
 	{
 		caulyVideoAdReceived = false;
@@ -107,6 +107,16 @@
 		videoAd.requestVideoAd("mainPlayer", caulyVideoAdCallback);
 	}
 	loadVideoAd();
+	
+	window.onload = function()
+	{
+		//메인 컨텐츠의 재생 버튼 시, INJECTION TYPE 카울리 비디오 호출. 
+		document.getElementById('mainPlayer').addEventListener('play',function()
+		{
+			if(caulyVideoAdReceived==true)
+				caulyVideoPlay();  
+		}, false);
+	}
 	```
 
 [error 코드 정의](onFailToReceiveVideoAd)
