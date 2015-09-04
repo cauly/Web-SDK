@@ -20,18 +20,11 @@
 
 #### SDK Javascript link
 +  web sdk는 다음 주소를 사용 합니다. (not yet uploaded)
-	-   http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.0.js
+	-   http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.1.js
 +  사용 방법
-	- ```<script src="http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.0.js"></script>```
+	- ```<script src="http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.1.js"></script>```
 
-#### 네이티브 디자인 DIV 삽입
-- 아이콘, 메인이미지, 제목, 부제목, 상세설명 중 원하는 콘텐츠 선택하여 디자인
 
-- 예제
-	```html
-	<!--  CAULY Video가 노출 될 컨테이너 설정 -->
-	<div class="ad-Cauly" id="caulyVideoAd" >   </div>
-	```
 #### CaulyVideoAd 변수 생성
 *  CAULY Video를 사용하기 위해서 CaulyVideoAd 객체를 생성합니다.
 * Paramter
@@ -54,6 +47,7 @@
 * 사용 예제
 	```javascript
 	var videoAd ;
+	var caulyVideoAdReceived =false;
 	var caulyVideoAdCallback =
 	{
 		onReceiveVideoAd		: onReceiveVideoAd,
@@ -64,17 +58,28 @@
 	// CAULY Video를 없애고,   본 영상을 재생한다
 	function loadVideo()
 	{
-		document.getElementById('caulyVideoAd').innerHTML="";
-		document.getElementById('caulyVideoAd').style.display = "none";
+		document.getElementById('mainPlayer').style.display = "block";
+		document.getElementById('mainPlayer').play();
 		/*
 		 Do what you want to do.
 		*/
 	}
+	
+	//광고가 준비되었을 때, 2가지 방법으로 플레이 가능.  디폴트는 INJECTION
+	//INJECTION type : MainVideo(광고가 아닌 메인 컨텐츠영상)에 source injection 방식
+	//FLOATING type  : MainVideo와 별개로  <video> 태그를 삽입하는 방식(단, 사용자 클릭이벤트 시, 재생가능) 
+	function caulyVidepPlay()
+	{
+		//광고수신에 성공되었을 때,  카울리비디오를 수행한다.
+		if(caulyVideoAdReceived==true)
+			videoAd.showVideoAd('INJECTION');  // INJECTION, FLOATING  디폴트는 INJECTION
+		else
+			loadVideo();
+	}
 	//광고수신에 성공되었을 때 호출된다.
 	function onReceiveVideoAd(info)
 	{
-		videoAd.showVideoAd();
-		setTimeout(function(){videoAd.play();}, 100);
+		caulyVideoAdReceived = true;	
 		
 	}
 	//광고의 재생시작을 알려준다.
@@ -84,11 +89,13 @@
   // CAULY Video 재생 중, 재생완료, 광고클릭, 스킵버튼클릭, 플레이에러 등으로 광고영상이 끝났을 때 호출
 	function onFinishVideoAd(code, msg)
 	{
+		caulyVideoAdReceived = false;
 		loadVideo();
 	}
 	광고수신에 실패되었을 때 호출된다.
 	function onFailToReceiveVideoAd(code,msg)
 	{
+		caulyVideoAdReceived = false;
 		loadVideo();
 	}
 	//CaulyVideoAd를 호출한다. 
@@ -96,7 +103,7 @@
 	{
 		videoAd = new CaulyVideoAd("APPCODE");
 		videoAd.setKeywords("category1,category2,category3"); //카테고리 설정 최대 3개까지 설정가능 
-		videoAd.requestVideoAd("caulyVideoAd", caulyVideoAdCallback);
+		videoAd.requestVideoAd("mainPlayer", caulyVideoAdCallback);
 	}
 	loadVideoAd();
 	```
@@ -114,6 +121,6 @@ Code|Message|설명
 -200|	Request Failed(You are not allowed to send requests under minimum interval)	|최소요청주기 미달
 
 
-[sample](http://image.cauly.co.kr:15151/richad/test/...)
+[sample](http://image.cauly.co.kr:15151/richad/test/videoad.html)
  
 
