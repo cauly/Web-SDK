@@ -35,7 +35,7 @@
 	appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
   setKeywords	|광고 타켓팅에 활용되는 키워드 설정( 카테고리, 태그 등을 ','(컴마)로 구분하여 최대 3개까지 설정가능)|
   setSkipCount	|광고의 건너띄우기 버튼의 노출시간설정|
-	requestVideoAd(appcode, caulyVideoAdCallback)|광고영역 Div ID 설정, 광고 callback|
+	requestVideoAd(appcode, caulyVideoAdCallback)|앱의 메인콘텐츠 비디오 ID 설정, 광고 callback|
   showVideoAd()|수신된 광고를 재생시작 |
 
   광고Callback| 설명
@@ -122,6 +122,6 @@ Code|Message|설명
 -200|	Request Failed(You are not allowed to send requests under minimum interval)	|최소요청주기 미달
 
 
-[sample](http://image.cauly.co.kr:15151/richad/test/videoad.html)
+[sample](http://image.cauly.co.kr:15151/richad/test/CaulyVideo/videoad.html)
  
 
