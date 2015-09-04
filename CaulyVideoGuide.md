@@ -69,7 +69,7 @@
 	//광고가 준비되었을 때, 2가지 방법으로 플레이 가능.  디폴트는 INJECTION
 	//INJECTION type : MainVideo(광고가 아닌 메인 컨텐츠영상)에 source injection 방식
 	//FLOATING type  : MainVideo와 별개로  <video> 태그를 삽입하는 방식(단, 사용자 클릭이벤트 시, 재생가능) 
-	function caulyVidepPlay()
+	function caulyVideoPlay()
 	{
 		//광고수신에 성공되었을 때,  카울리비디오를 수행한다.
 		if(caulyVideoAdReceived==true)
