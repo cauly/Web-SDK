@@ -21,9 +21,9 @@
 
 #### SDK Javascript link
 +  web sdk는 다음 주소를 사용 합니다. (not yet uploaded)
-	-   http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.1.js
+	-   http://image.cauly.co.kr/websdk/caulyad.video_4.2.1.js
 +  사용 방법
-	- ```<script src="http://image.cauly.co.kr:15151/websdk/caulyad.video_4.2.1.js"></script>```
+	- ```<script src="http://image.cauly.co.kr/websdk/caulyad.video_4.2.1.js"></script>```
 
 
 #### CaulyVideoAd 변수 생성
@@ -132,6 +132,6 @@ Code|Message|설명
 -200|	Request Failed(You are not allowed to send requests under minimum interval)	|최소요청주기 미달
 
 
-[sample](http://image.cauly.co.kr:15151/richad/test/CaulyVideo/videoad.html)
+[sample](http://image.cauly.co.kr/richad/test/CaulyVideo/videoad.html)
  
 
