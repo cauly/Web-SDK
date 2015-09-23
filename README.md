@@ -5,5 +5,3 @@
 Home Page : <a href="http://cauly.net/" target="_blank">Cauly Site</a>
 
 #### [Banner광고 사용자 안내](banner.md)
-#### [NativeAD광고 사용자 안내](nativead.md)
-#### [Floating광고 사용자 안내](floating.md)
