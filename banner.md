@@ -32,8 +32,7 @@
 	인자명|설명|필수
 	---|---|---
 	appcode|<a href="http://www.cauly.net" target="_blank">CAULY</a> 에서 발급 받은 app code|O
-	options|추가적인 option (object 사용)<br/> 랜딩 시 새창 띄우는 방법<br/> open_new_window : true
-
+	
 
 
 
