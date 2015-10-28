@@ -1,7 +1,7 @@
-![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Integration Guide For NativeAd
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) CAULY Integration Guide For NativeAd
 ----
 
-* Cauly NativeAd 광고 사용자 가이드
+* CAULY NativeAd 광고 사용자 가이드
 * version 4.0.2
 
 
@@ -9,13 +9,13 @@
 * 4.0.2 2015.01.29 초안 작성
 
 #### 문서의 목적 및 범위
-* 본 문서는 Cauly NativeAd 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
+* 본 문서는 CAULY NativeAd 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
 
 #### 개요
-* Cauly 광고 형태 중 NativeAd 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
+* CAULY 광고 형태 중 NativeAd 광고를 위한 SDK 입니다.<br/>모바일 웹을 대상으로 합니다.
 
 #### 절차
-* <a href="http://cauly.net" target="_blank">Cauly</a> 에서 앱을 등록하고 app code를 발급받습니다.
+* <a href="http://cauly.net" target="_blank">CAULY</a> 에서 앱을 등록하고 app code를 발급받습니다.
 
 
 #### SDK Javascript link
@@ -39,7 +39,7 @@
 	</div>
 	```
 #### NativeAd 변수 생성
-* Cauly 광고를 사용하기 위해서 NativeAd 객체를 생성합니다.
+* 광고를 사용하기 위해서 NativeAd 객체를 생성합니다.
 * Paramter
 
 	인자명|설명|필수
