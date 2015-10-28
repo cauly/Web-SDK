@@ -53,11 +53,10 @@
 	```
 
 
-		|인자명|설명|필수|
-		|---|---|---|
-		|success|광고 노출 성공시 호출될 callback|function success_callback() 형식|c|
-		|fail
-		|광고 노출 실패시 호출될 callback<br/>function nofill_callback(code)형식<br/>인자값으로 결과code 전달<br/>0 : 정상처리<br/>100 : 광고 출력 시간이나 회수 등으로 노출 제한<br/>200 : 출력할 광고 없음<br/>400 : app code 오류. app이 등록되지 않았거나 사용이 불가능<br/>500 : server에서 오류 발생|c|
+		인자명|설명|필수
+		---|---|---
+		success|광고 노출 성공시 호출될 callback<br/>function success_callback() 형식| |
+		fail|광고 노출 실패시 호출될 callback<br/>function nofill_callback(code)형식<br/>인자값으로 결과code 전달<br/>0 : 정상처리<br/>100 : 광고 출력 시간이나 회수 등으로 노출 제한<br/>200 : 출력할 광고 없음<br/>400 : app code 오류. app이 등록되지 않았거나 사용이 불가능<br/>500 : server에서 오류 발생|
 
 
 
