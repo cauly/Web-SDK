@@ -32,7 +32,7 @@
 
 	인자명|설명|필수
 	--- | --- | ---
-	appcode|<a href="http://cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
+	appcode|<a href="http://cauly.net" target="_blank">CAULY</a> 에서 발급 받은 app code|O
   setKeywords	|광고 타켓팅에 활용되는 키워드 설정( 카테고리, 태그 등을 ','(컴마)로 구분하여 최대 3개까지 설정가능)|
   setSkipCount	|광고의 건너띄우기 버튼의 노출시간설정|
 	requestVideoAd(appcode, caulyVideoAdCallback)|앱의 메인콘텐츠 비디오 ID 설정, 광고 callback|
