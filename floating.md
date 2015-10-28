@@ -113,4 +113,4 @@
 		</script>
 		```
 
-* [sample](http://showcase.cauly.net/floating/index.html )
+
