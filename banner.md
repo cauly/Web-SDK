@@ -1,7 +1,7 @@
-![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Cauly Integration Guide For Banner
+![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) Integration Guide For Banner
 ----
 
-* Cauly Banner 광고 사용자 가이드
+* CAULY Banner 광고 사용자 가이드
 * version 4.1.0
 
 
@@ -9,12 +9,13 @@
 * 4.1.0 2015.01.29 초안 작성
 
 #### 문서의 목적 및 범위
-* 본 문서는 Cauly Banner 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
+* 본 문서는 CAULY banner 광고를 모바일 웹에서 사용하기 위한 Web SDK 가이드입니다. 
 
 #### 개요
-* Cauly 광고 형태 중 Banner 광고를 위한 SDK 입니다<br/>모바일 웹을 대상으로 합니다.
+* CAULY 광고 형태 중 banner 광고를 위한 SDK 입니다<br/>모바일 웹을 대상으로 합니다.
+
 #### 절차
-* <a href="http://www.cauly.net" target="_blank">Cauly</a>에서 앱을 등록하고 app code를 발급받습니다
+* <a href="http://www.cauly.net" target="_blank">CAULY</a>에서 앱을 등록하고 app code를 발급받습니다
 
 
 #### SDK Javascript link
@@ -25,12 +26,12 @@
  	
 #### Javascript 작성 방법
 + CaulyAd 변수 생성
-- Cauly 광고를 사용하기 위해서CaulyAd 객체를 생성합니다.
+- 광고를 사용하기 위해서CaulyAd 객체를 생성합니다.
 - Paramter
 
 	인자명|설명|필수
 	---|---|---
-	appcode|<a href="http://www.cauly.net" target="_blank">Cauly</a> 에서 발급 받은 app code|O
+	appcode|<a href="http://www.cauly.net" target="_blank">CAULY</a> 에서 발급 받은 app code|O
 	options|추가적인 option (object 사용)<br/> 랜딩 시 새창 띄우는 방법<br/> open_new_window : true
 
 
@@ -77,7 +78,6 @@
 
 * 작성 예제 1 (기본 사용 방법)
 	```javascript
-	<script src='http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js' type='text/javascript'></script>
 	<script type='text/javascript'>
 	
 		function success_callback( info ) {
@@ -102,5 +102,7 @@
 		}
 	</script>
 	
-	<div id='cauly_ad_area'></div>
+	<div id='cauly_ad_area'>
+		<script src='http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js' type='text/javascript'></script>
+	</div>
 	```
