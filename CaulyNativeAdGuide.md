@@ -1,4 +1,4 @@
-![Valid XHTML](http://cauly044.fsnsys.com:10010/images/logo_cauly_main.png) CAULY Integration Guide For NativeAd
+CAULY Integration Guide For NativeAd
 ----
 
 * CAULY NativeAd 광고 사용자 가이드
