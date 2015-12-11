@@ -122,7 +122,7 @@
 	}
 	```
 
-[error 코드 정의](onFailToReceiveVideoAd)
+[onFailToReceiveVideoAd 코드 정의](onFailToReceiveVideoAd)
 		
 Code|Message|설명
 ---|---|---
@@ -134,7 +134,7 @@ Code|Message|설명
 -100|	SDK error	|SDK 에러
 -200|	Request Failed(You are not allowed to send requests under minimum interval)	|최소요청주기 미달
 
-[ 코드 정의](onFinishVideoAd)
+[ onFinishVideoAd 코드 정의](onFinishVideoAd)
 		
 Code|Message|설명
 ---|---|---
@@ -143,6 +143,6 @@ Code|Message|설명
 203|	CLICK	|광고의 랜딩이미지 클릭 시
 204|	SKIP	|광고의 스킵버튼을 클릭 시
 205|	PAUSE	|광고 시청 중,  전원버튼이나 홈버튼 클릭 시
-[sample](http://image.cauly.co.kr/richad/test/CaulyVideo/videoad.html)
+[샘플 페이지 이동](http://image.cauly.co.kr/richad/test/CaulyVideo/videoad.html)
  
 
