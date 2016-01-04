@@ -20,7 +20,7 @@ CAULY Integration Guide For NativeAd
 
 #### SDK Javascript link
 +  web sdk는 다음 주소를 사용 합니다.
-	-   http://image.cauly.co.kr:15151/websdk/caulyad.native.js
+	-   http://image.cauly.co.kr/websdk/caulyad.native.js
 +  사용 방법
 	- ```<script src="http://image.cauly.co.kr/websdk/caulyad.native.js"></script>```
 
