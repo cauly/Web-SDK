@@ -20,9 +20,9 @@ CAULY Integration Guide For Banner
 
 #### SDK Javascript link
 * web sdk는 다음 주소를 사용 합니다.
- 	- <pre>http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js</pre>
+ 	- <pre>http://image.cauly.co.kr/websdk/caulyad_4.1.0.js</pre>
 + 사용 방법
- 	- ```<script src='http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js' type='text/javascript'></script> ```
+ 	- ```<script src='http://image.cauly.co.kr/websdk/caulyad_4.1.0.js' type='text/javascript'></script> ```
  	
 #### Javascript 작성 방법
 + CaulyAd 변수 생성
@@ -102,6 +102,6 @@ CAULY Integration Guide For Banner
 	</script>
 	
 	<div id='cauly_ad_area'>
-		<script src='http://image.cauly.co.kr:15151/websdk/caulyad_4.1.0.js' type='text/javascript'></script>
+		<script src='http://image.cauly.co.kr/websdk/caulyad_4.1.0.js' type='text/javascript'></script>
 	</div>
 	```
