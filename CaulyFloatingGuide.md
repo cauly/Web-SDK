@@ -20,9 +20,9 @@ CAULY Integration Guide For Floating Popup
 
 #### SDK Javascript link
 + web sdk는 다음 주소를 사용 합니다.
-	- http://image.cauly.co.kr:15151/websdk/caulyad.popup.js
+	- http://image.cauly.co.kr/websdk/caulyad.popup.js
 + 사용 방법
-	 - ```<script type="text/javascript" src="http://image.cauly.co.kr:15151/websdk/caulyad.popup.js"> </script>```
+	 - ```<script type="text/javascript" src="http://image.cauly.co.kr/websdk/caulyad.popup.js"> </script>```
 
 + Javascript 작성 방법
 	- CaulyPopupAd 변수 생성
@@ -70,7 +70,7 @@ CAULY Integration Guide For Floating Popup
 	+ 작성 예제 1 (기본 사용 방법)
 		```javascript
 		<script type="text/javascript"
-		 src="http://image.cauly.co.kr:15151/websdk/caulyad.popup.js">
+		 src="http://image.cauly.co.kr/websdk/caulyad.popup.js">
 		</script>
 		<script type="text/javascript">
 			// appcode는 발급받은 app code
@@ -82,7 +82,7 @@ CAULY Integration Guide For Floating Popup
 	* 작성 예제 2  (상단 특정 Pixel 확보)
 		```javascript
 		<script type="text/javascript"
-		 src="http://image.cauly.co.kr:15151/websdk/caulyad.popup.js">
+		 src="http://image.cauly.co.kr/websdk/caulyad.popup.js">
 		</script>
 		<script type="text/javascript">
 			// appcode는 발급받은 app code
@@ -96,7 +96,7 @@ CAULY Integration Guide For Floating Popup
 	* 작성 예제 3 (callback 사용)
 		```javascript
 		<script type="text/javascript"
-		 src="http://image.cauly.co.kr:15151/websdk/caulyad.popup.js">
+		 src="http://image.cauly.co.kr/websdk/caulyad.popup.js">
 		</script>
 		<script type="text/javascript">
 			function onSuccess(info) {
