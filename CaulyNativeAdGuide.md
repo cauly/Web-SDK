@@ -94,7 +94,7 @@ CAULY Integration Guide For NativeAd
 
 * 작성 예제 1 (기본 사용 방법)
 	```javascript
-	<script src="http://image.cauly.co.kr/websdk/caulyad.native.js"></script>
+	<script src="http://image.cauly.co.kr/websdk/caulyad.native_4.0.5.js"></script>
 	
 	<script type="text/javascript">
 	var caulyNativeAd = new CaulyNativeAd("발급AppCode");
