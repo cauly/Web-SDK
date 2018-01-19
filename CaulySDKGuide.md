@@ -25,7 +25,7 @@ passback|광고 노출 실패시 호출될 callback|
 - 배너, 네이티브
 ```html
 <div id='caulyDisplay'>
-	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.js'></script>
+	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
 	<script>
       new CaulyAds({
         app_code:app_code,
@@ -40,7 +40,7 @@ passback|광고 노출 실패시 호출될 callback|
 - 전면
 ```html
 <div id='caulyDisplay'>
-	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.js'></script>
+	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
 	<script>
       var cauly_ads = new CaulyAds({
         app_code:app_code,
