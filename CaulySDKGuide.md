@@ -1,6 +1,5 @@
 CAULY WEB SDK 사용자 가이드
 ----
-* SDK Version 5.3.6
 
 ### 개요
 * Cauly Web 광고를 사용하기 위한 SDK입니다.
