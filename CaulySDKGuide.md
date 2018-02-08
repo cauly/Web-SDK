@@ -9,7 +9,7 @@ CAULY WEB SDK 사용자 가이드
 #### Javascript 작성 방법
 - 광고영역의 div id와 CaulyAds의 displayid는 동일해야 합니다.
 - 한 페이지에 카울리광고가 여러 개 일 경우 div id는 중복되지 않아야 합니다.
-- 페이지가 https일 경우 ```https://image.cauly.co.kr/websdk/common/lasted/ads.js``` 로 변경해야 합니다.
+- 구버전에서 신버전으로 변경 시 동일한 AppCode를 사용 할 경우 [고객센터](https://www.cauly.net/index.html#/apps/contactUs/dev)로 문의부탁드립니다.
 - parameter
 
 인자명|설명|필수
@@ -25,7 +25,7 @@ passback|광고 노출 실패시 호출될 callback|
 - 배너, 네이티브
 ```html
 <div id='caulyDisplay'>
-	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
+	<script src='//image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
 	<script>
       new CaulyAds({
         app_code:app_code,
@@ -38,9 +38,10 @@ passback|광고 노출 실패시 호출될 callback|
 </div>
 ```
 - 전면
+	- 전면광고의 노출주기는 5초 입니다. 노출주기 변경을 원하시는 경우 [고객센터](https://www.cauly.net/index.html#/apps/contactUs/dev)를 통해 연락 바랍니다.
 ```html
 <div id='caulyDisplay'>
-	<script src='http://image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
+	<script src='//image.cauly.co.kr/websdk/common/lasted/ads.min.js'></script>
 	<script>
       var cauly_ads = new CaulyAds({
         app_code:app_code,
