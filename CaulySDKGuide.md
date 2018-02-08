@@ -8,7 +8,7 @@ CAULY WEB SDK 사용자 가이드
 #### Javascript 작성 방법
 - 광고영역의 div id와 CaulyAds의 displayid는 동일해야 합니다.
 - 한 페이지에 카울리광고가 여러 개 일 경우 div id는 중복되지 않아야 합니다.
-- 구버전에서 신버전으로 변경 시 동일한 AppCode를 사용 할 경우 [고객센터](https://www.cauly.net/index.html#/apps/contactUs/dev)로 문의부탁드립니다.
+- 구버전에서 신버전으로 변경 시 동일한 AppCode를 사용 할 경우 [고객센터](https://www.cauly.net/index.html#/apps/contactUs/dev)로 문의 바랍니다.
 - parameter
 
 인자명|설명|필수
