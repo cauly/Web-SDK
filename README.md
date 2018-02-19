@@ -4,5 +4,5 @@
 
 Home Page : <a href="http://cauly.net/" target="_blank">CAULY Site</a>
 
-#### [WEB SDK Guide](CaulySDKGuide.md)
+#### [WEB SDK 사용자 ](CaulySDKGuide.md)
 
