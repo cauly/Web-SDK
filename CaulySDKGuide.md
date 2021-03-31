@@ -40,7 +40,7 @@ Cauly 배너 광고를 사용하기 위해서는
   </script>
 </div>
 ```
-:warning: 모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
+모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
 즉 GAID (Google Advertiser Indentifier) 혹은 IDFA (Apple Identifier For Advertising) 를 Cauly 로 전달해야 합니다. 흐름은 다음과 같습니다.  
 
 a) Hybrid 앱에서 에서 먼저 GAID 혹은 IDFA 를 직접 추출합니다.  
@@ -113,7 +113,7 @@ Cauly 전면 광고를 사용하기 위해서는
   </script>
 </div>
 ```
-:warning: 모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
+모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
 즉 GAID (Google Advertiser Indentifier) 혹은 IDFA (Apple Identifier For Advertising) 를 Cauly 로 전달해야 합니다. 흐름은 다음과 같습니다.
 
 a) Hybrid 앱에서 에서 먼저 GAID 혹은 IDFA 를 직접 추출합니다.  
@@ -181,7 +181,7 @@ Cauly 네이티브 광고를 사용하기 위해서는
   </script>
 </div>
 ```
-:warning: 모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
+모바일 웹페이지를 WebView 를 통해 표시하는 Hybrid 앱에서는 디바이스 광고 식별자,  
 즉 GAID (Google Advertiser Indentifier) 혹은 IDFA (Apple Identifier For Advertising) 를 Cauly 로 전달해야 합니다. 흐름은 다음과 같습니다.
 
 a) Hybrid 앱에서 에서 먼저 GAID 혹은 IDFA 를 직접 추출합니다.  
